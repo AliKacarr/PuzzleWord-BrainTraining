@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-image: url('background3.jpeg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: repeat-y;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center; }
+        </style>
+        <title>Rock Paper Scissors</title> 
+        <link rel="stylesheet" href="taşkağıtmakas.css">
+        <script src="taşkağıtmakas.js"></script>
+    </head>
+
+    <body>
+        <h1 id="opponent-score">Rakibin Skoru: 0</h1>
+        <img id="opponent-choice">
+        <img id="your-choice">
+        <div id="choices">
+        </div>
+        <h1 id="your-score">Senin Skorun: 0</h1>
+        <audio id="myAudio" loop>
+            <source src="taskagıtmakas.mp3" type="audio/mp3">
+        </audio>
+        
+        <!-- Buton ile müziği kontrol etme -->
+        <button id="playButton" onclick="togglePlay()">🎵</button>
+    </body>
+</html>

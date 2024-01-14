@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <style>  
+        body {
+         background-image: url('background5.jpg');
+         background-size: cover;
+         background-position: center;
+         background-repeat: repeat-y;
+         margin: 0;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center; } 
+          
+       </style>
+       <meta charset="UTF-8">
+    <link rel="stylesheet" href="Tetris.css">
+    <link rel="icon" type="image/x-icon" href="resources/logo.ico">
+<title>Tetris</title>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="left-div">
+            <img src="resources/logo.png" id="logo">
+            <hr>
+
+            <div id="score-div">
+                <label> Score: </label>
+                <label id="score"></label>
+            </div>
+            <div id="lines-div">
+                <label> Yok Edilen Satır: </label>
+                <label id="lines"></label>
+                <br><br>
+                Boşluk tuşuyla gelen parçayı çevirebilirsiniz.
+            </div>
+        </div>
+        <div id="game-container">
+            <img src="resources/background.png" id="background">
+            <canvas id="game-canvas"></canvas>
+        </div>
+    </div>
+    <audio id="myAudio" loop>
+
+        <source src="tetris.mp3" type="audio/mp3">
+    </audio>
+    
+    <button id="playButton" onclick="togglePlay()">🎵</button>
+</body>
+
+<script src="Tetris.js"></script>
+
+</html>

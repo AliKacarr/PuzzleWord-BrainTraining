@@ -1,0 +1,29 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>  
+   body {
+    background-image: url('background8.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; } 
+     
+  </style>
+  <title>Yılan Oyunu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas height="580" width="580" id="gameCanvas"> </canvas>
+    <div id="game-container"></div>
+    <script src="script.js"></script>
+    <audio id="myAudio" loop>
+      <source src="yilan.mp3" type="audio/mp3">
+  </audio>
+  <button id="playButton">🎵</button>
+</body>
+</html>

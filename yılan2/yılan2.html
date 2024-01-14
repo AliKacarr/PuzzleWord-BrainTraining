@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>  
+        body {
+         background-image: url('background1.jpg');
+         background-size: cover;
+         background-position: center;
+         background-repeat: repeat-y;
+         margin: 0;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center; } 
+          
+       </style>
+    <title>Snake</title>
+
+    <link rel="stylesheet" href="yılan2.css">
+    <script src="yılan2.js"></script>
+</head>
+
+<body>
+    <br>
+    <canvas id="board"></canvas>
+    <div id="game-over-message" style="display: none;">Game Over</div>
+    <button id="play-again-button" onclick="playAgain()">Tekrar Oyna</button>
+    <audio id="myAudio" loop>
+        <source src="yılan2.mp3" type="audio/mp3">
+    </audio>
+    <button id="playButton">🎵</button>
+</body>
+
+</html>
+
