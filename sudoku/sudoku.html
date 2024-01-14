@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="sudoku.css">
+</head>
+<body>
+
+    <h1>SUDOKU</h1>
+
+    <div id="main">
+        <div id="row1">
+           <div id="box1" class="box"></div>
+           <div id="box2" class="box"></div>
+           <div id="box3" class="box"></div> 
+        </div>
+        <div id="row2">
+            <div id="box4" class="box"></div>
+            <div id="box5" class="box"></div>
+            <div id="box6" class="box"></div>
+        </div>
+        <div id="row3">
+            <div id="box7" class="box"></div>
+            <div id="box8" class="box"></div>
+            <div id="box9" class="box"></div>
+        </div>
+    </div>
+
+    <button type="button" id="start" onclick="start()">BAŞLA</button>
+    <button type="button" id="replay" onclick="replay()">YENİ OYUN</button>
+    <button type="button" id="answer" onclick="answer()">ÇÖZÜMÜ GÖSTER</button>
+
+    <div id="game_type">
+        
+        <audio id="myAudio" loop> <source src="sudoku.mp3" type="audio/mp3">
+            Tarayıcınız audio etiketini desteklemiyor.
+        </audio>
+        <button id="playButton" onclick="togglePlay()">🎵</button>
+        <h3>Zorluk Seç:</h3>
+        <label><input type="radio" id="easy" class="label" name="diff_level" checked> Kolay</label>
+        <label><input type="radio" id="medium" class="label" name="diff_level" > Orta</label>
+        <label><input type="radio" id="hard" class="label" name="diff_level"> Zor</label>
+        <button type="button" id="help" onclick="help()">NASIL OYNANIR</button>
+        
+    </div>
+
+    <div id="lives">Sadece <span id="rem_live">3</span> Cana Sahipsin!</div>
+    <script src="sudoku.js"></script>
+    
+</body>
+</html>
