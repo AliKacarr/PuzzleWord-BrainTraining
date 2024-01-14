@@ -1,0 +1,32 @@
+    setPlayerClassToRight(balle);
+    if (!isWall(posX + 1) ) {
+        posX++;
+        movePlayerTo(posX, balle)
+    }
+
+    setPlayerClassToLeft(balle);
+    if (!isWall(posX - 1)) {
+        posX --;
+        movePlayerTo(posX, balle)
+     }
+
+     if (!isWall(posX - yatay)) {
+        posX -= yatay;
+        movePlayerTo(posX, balle)
+    }
+
+    if (!isWall(posX + yatay)) {
+        posX += yatay;
+        movePlayerTo(posX, balle)
+    }
+
+    if (isKalp(posX)) {
+        posX
+        movePlayerTo(posX, balle)
+        explanations.innerHTML = '';
+        }
+    if (isAltın(posX)) {
+        posX
+        movePlayerTo(posX, balle)
+        explanations.innerHTML = '';
+        }    
