@@ -1,0 +1,167 @@
+body {
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(26, 6, 56);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #94a1ef;
+    color: rgb(26, 6, 56);
+    padding: 0px 0;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 170px;
+    height: 75px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 25px;
+    font-size: 27px; 
+}
+
+.login-button a {
+    text-decoration: none;
+    color: rgb(31, 37, 83);
+    background-color: rgb(248, 175, 40);
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 27px; 
+}
+.footer-links a:hover {
+    color: rgb(86, 86, 151); 
+  }
+  .login-button a:hover{
+    color: rgb(31, 37, 83);
+    background-color: rgb(255, 184, 53);
+  }
+  .dummy-content {
+    height: 1000px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.hide-footer {
+    transform: translateY(-100%);
+}
+        .games-container {
+            display: flex;           /*ögeleri düzenlemek için*/
+            flex-direction: row;     /*sıralanma yönünü seçme,soldan sağa*/
+            align-items: flex-start; /*dikeyde hizalama,en üstten hizala*/
+            justify-content: center; /*yatay eksende hizala,ortala*/
+            flex-wrap: wrap;         /*ekrana sığmayınca alt satıra geç*/
+            margin-top: 100px;
+            margin-bottom: 30px;
+        }
+        
+        .game {
+            margin: 0 75px;      /*nesnelerin sağ sol yakınlığı*/
+            text-align: center;  /*yazıyı ortalama*/
+            margin-bottom: 60px; /*game sınıfındaki nesnelerin alttan uzaklığı*/
+        }
+
+        .game img {
+            width: 230px;        
+            height: 230px;       
+            margin-bottom: 0px; 
+        }
+
+        .game a {
+            display:block;       
+            font-size: 40px;
+            color: rgb(0, 0, 0);
+        }.game a:hover {
+            color: rgb(0, 0, 128);
+        }
+
+
+          .footer {
+            width: 100%;
+            background-color: rgb(35, 98, 122);
+            color: #000000;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding-top: 15px; 
+            padding-bottom: 10px;
+        }
+        
+        .category {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .category p {
+            margin: 0;
+            font-size: 23px; 
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+        .footer .category p.special {
+            font-weight: bold; 
+        }
+        .category hr {
+            margin: 10px 0;
+            height: 1px;
+            background-color: #000000;
+            width: 30%; 
+            margin-left: auto;
+            margin-right: auto;
+            border: #000000;
+        }
+        
+        .social-icons {
+            flex: 1;
+            text-align: center;
+            padding: 0 15px;
+            margin-top: 10px;
+        }
+        
+        .social-icons img {
+            width: 40px;
+            margin: 0 5px;
+        }
+        
+        a {
+            text-decoration: none; 
+            color: rgb(0, 0, 0);
+        }a:hover {
+          color: rgb(0, 0, 128); 
+        }
+        
