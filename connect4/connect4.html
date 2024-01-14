@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect 4</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="connect4.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="playerTurn">Demo Text</div><audio id="myAudio" loop>
+        <source src="connect4.mp3" type="audio/mp3">
+    </audio>
+    <button id="playButton">🎵</button>
+      <div class="container"></div>
+      <div id="information">
+        <div class="player-wrappers">
+          Oyuncu 1
+          <div class="player1"></div>
+        </div>
+        <div class="player-wrappers">
+          Oyuncu 2
+          <div class="player2"></div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="startScreen">
+      <h1>Nasıl Oynanır?</h1>
+      <h3>Sırayla ilk oyuncu kırmızı taş ikinci oyuncu sarı taş yerleştirir.</h3>
+      <h3>Oyun içinde 4 taşınızı ardışık şekilde bir araya getirmelisiniz. </h3>
+      <h3>Bu sıralama yatay, dikey veya çapraz şekilde olabilir.</h3>
+      <div id="message"></div>
+      <button id="start">Oyuna Başla</button>
+    </div>
+    <!-- Script -->
+    <script src="connect4.js"></script>
+  </body>
+</html>

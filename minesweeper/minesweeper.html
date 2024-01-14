@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr"></html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mayın Tarlası</title>
+        <style>
+            body {
+                background-image: url('background3.jpeg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: repeat-y;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center; }
+        </style>
+        <link rel="stylesheet" href="minesweeper.css">
+        <script src="minesweeper.js"></script>
+    </head>
+
+    <body>
+        <h1>Mayın Sayısı: <span id="mines-count">0</span></h1>
+        <div id="board"></div>
+        <div id="button-container">
+        <button id="flag-button">🚩</button>
+        <button id="play-again-button">Tekrar Oyna</button></div><br>
+        <audio id="myAudio" loop>
+            <source src="minesweeper.mp3" type="audio/mp3">
+            Tarayıcınız audio etiketini desteklemiyor.
+        </audio>
+        
+        <!-- Buton ile müziği kontrol etme -->
+        <button id="playButton" onclick="togglePlay()">🎵</button>
+        
+    </body>
+</html>

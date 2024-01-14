@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-image: url('background2.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: repeat-y;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center; }
+        </style>
+        <title>Pong</title>
+        <link rel="stylesheet" href="pong.css">
+        <script src="pong.js"></script>
+    </head>
+
+    <body>
+        <canvas id="board"></canvas>
+        <audio id="myAudio" loop>
+            <source src="pong.mp3" type="audio/mp3">
+        </audio>
+        <button id="playButton">🎵</button>
+    </body>
+</html>
