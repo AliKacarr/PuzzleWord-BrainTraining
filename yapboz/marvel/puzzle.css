@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#board {
+    width: 395px;
+    height: 400px;
+    border: 2px solid purple;
+
+    margin: 0 auto;
+    flex-wrap: wrap;
+     display: flex;
+    gap: 0px; /* Gap between puzzle pieces */
+}
+
+#board img {
+    width: 79px;
+    height: 79px;
+    border: 0.1px solid lightblue;
+    flex: 0 0 calc(20% - 1px); /* Adjust the size of puzzle pieces with gap included */
+    box-sizing: border-box;
+}
+
+
+#pieces {
+    width: 1048px;
+    height: 160px;
+    border: 2px solid purple;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pieces img {
+    width: 79px;
+    height: 79px;
+    border: 0.5px solid lightblue;
+}
+#win-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin-top: 20px;
+    display: none; /* Başlangıçta gizli */
+}
+#playButton {
+    margin-top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255); 
+    color: white;
+    border: none;
+    outline: none;
+}
+#playButton::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg); 
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+#playButton.stopped::before {
+    opacity: 1;
+}
