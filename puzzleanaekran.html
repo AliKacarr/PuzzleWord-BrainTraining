@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-image: url('background4.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat-y;
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color:rgb(32, 15, 69);
+        }
+
+        a {
+            text-decoration: none; /*linklerin altı çizilmemesi*/
+        }
+
+        .games-container {
+            display: flex;           /*ögeleri düzenlemek için*/
+            flex-direction: row;     /*sıralanma yönünü seçme,soldan sağa*/
+            align-items: flex-start; /*dikeyde hizalama,en üstten hizala*/
+            justify-content: center; /*yatay eksende hizala,ortala*/
+            flex-wrap: wrap;         /*ekrana sığmayınca alt satıra geç*/
+        }
+
+        .game {
+            margin: 0 75px;      /*nesnelerin sağ sol yakınlığı*/
+            text-align: center;  /*yazıyı ortalama*/
+            margin-bottom: 50px; /*game sınıfındaki nesnelerin alttan uzaklığı*/
+        }
+
+        .game img {
+            width: 230px;        /* resim genişliği */
+            height: 260px;       /* resim yüksekliği */
+            margin-bottom: 0px; /*resim alttan ne kadar yüksek olacak*/
+        }
+
+        .game a {
+            display:block;       /*sınıftaki linklerin yazı boyutu ve rengi*/
+            font-size: 40px;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+    <title>puzzle</title>
+</head>
+ <body> 
+   <br> <b><font size="7" >Puzzle Word</font></b><h1></h1>
+    <div class="games-container">
+        <div class="game">
+            <a href="mario/puzzle.html" ><img src="mario/images/mario.jpg"></a>
+            <a href="mario/puzzle.html" >Mario</a>
+         </div>
+         <div class="game">
+            <a href="kız kulesi/puzzle.html" ><img src="kız kulesi/images/kız kulesi.jpg"></a>
+            <a href="kız kulesi/puzzle.html" >Kız Kulesi</a>
+         </div>
+         <div class="game">
+            <a href="marvel/puzzle.html" ><img src="marvel/images/26.jpg"></a>
+            <a href="marvel/puzzle.html" >Marvel</a>
+         </div>
+         <div class="game">
+            <a href="Kaplan/puzzle.html" ><img src="Kaplan/images/kaplan.jpg"></a>
+            <a href="Kaplan/puzzle.html" >Kaplan</a>
+         </div>
+         <div class="game">
+            <a href="Naruto/puzzle.html" ><img src="Naruto/images/Naruto.jpg"></a>
+            <a href="Naruto/puzzle.html" >Naruto</a>
+         </div>
+         <div class="game">
+            <a href="orman/puzzle.html" ><img src="orman/images/Orman.jpg"></a>
+            <a href="orman/puzzle.html" >Orman</a>
+         </div>
+</div>
+    
+
+        </body>
+        </html>
