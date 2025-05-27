@@ -1,4 +1,4 @@
-![Ekran görüntüsü 2025-05-27 222015](https://github.com/user-attachments/assets/89e73a0a-299d-4b78-9aad-d03e6b976249)# PuzzleWord - Brain Training
+# PuzzleWord - Brain Training
 
 PuzzleWord, çeşitli zeka ve beyin eğitimi oyunlarını içeren bir web uygulamasıdır. Bu proje, kullanıcıların eğlenceli bir şekilde beyinlerini çalıştırmalarını sağlayan HTML5 tabanlı oyunları bir araya getirmektedir.
 
