@@ -57,6 +57,12 @@ Proje aşağıdaki oyunları içermektedir:
 ![Ekran görüntüsü 2025-05-27 222508](https://github.com/user-attachments/assets/46730bc1-0772-4ef6-9436-16e320b8adb0)
 ![Ekran görüntüsü 2025-05-27 222538](https://github.com/user-attachments/assets/deb2803e-0806-45d5-96fa-d719e1bc2498)
 ![Ekran görüntüsü 2025-05-27 222632](https://github.com/user-attachments/assets/a80966d5-6719-4ea8-92dd-713cfeb3832b)
+![Ekran görüntüsü 2025-05-27 222812](https://github.com/user-attachments/assets/2bc42c8b-279c-46ed-a2f8-2259cd444d1a)
+![Ekran görüntüsü 2025-05-27 222836](https://github.com/user-attachments/assets/009c1d6d-c812-414d-8255-9db704943dc0)
+![Ekran görüntüsü 2025-05-27 222856](https://github.com/user-attachments/assets/cb496ce9-4419-4426-a58e-ed145a5cc6e2)
+![Ekran görüntüsü 2025-05-27 222908](https://github.com/user-attachments/assets/fe1d6b9b-046d-4f79-a925-9bd48f7ea7d6)
+![Ekran görüntüsü 2025-05-27 222927](https://github.com/user-attachments/assets/3f52719b-1589-473a-ad14-1d9f5c08a9ee)
+![Ekran görüntüsü 2025-05-27 223004](https://github.com/user-attachments/assets/085644f9-26fb-4398-bc44-8f7a3f87721f)
 
 
 
