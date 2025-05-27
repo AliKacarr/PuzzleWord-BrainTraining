@@ -1,4 +1,4 @@
-# PuzzleWord - Beyin Eğitimi Oyunları
+# PuzzleWord - Brain Training
 
 PuzzleWord, çeşitli zeka ve beyin eğitimi oyunlarını içeren bir web uygulamasıdır. Bu proje, kullanıcıların eğlenceli bir şekilde beyinlerini çalıştırmalarını sağlayan HTML5 tabanlı oyunları bir araya getirmektedir.
 
